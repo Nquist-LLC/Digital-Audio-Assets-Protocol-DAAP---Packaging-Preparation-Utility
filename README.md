@@ -1,4 +1,4 @@
-# Digital-Audio-Assets-Protocol-DAAP---Package Preparation Utility
+# Digital-Audio-Assets-Protocol-DAAP---packaging Authority Integrator
 Specification + implementation for DAAP’s commercial manifest layer. Provides schemas, canonical form, cryptographic signing boundaries, validation, and golden fixtures to ensure consistent licensing/entitlement behavior across players, exchanges, and tooling.
 
 DAAP Manifest Commercial Code

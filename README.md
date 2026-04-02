@@ -38,8 +38,7 @@ This utility exists to make that packaging-prep step explicit and reviewable. In
 - detect the session file
 - build a deterministic Tier-1 manifest from files on disk
 - compare session references against project assets in later tiers
-- require human acknowledgment before packaging proceeds :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7} :contentReference[oaicite:8]{index=8}
-
+- require human acknowledgment before packaging proceeds 
 The goal is not “one-click magic.” The goal is disciplined packaging.
 
 ---
@@ -59,7 +58,7 @@ Current visible components include:
 - analysis progress screen
 - manifest preview screen
 - resolution preview screen
-- handoff into authority package build logic :contentReference[oaicite:9]{index=9} :contentReference[oaicite:10]{index=10} :contentReference[oaicite:11]{index=11}
+- handoff into the authority package build logic 
 
 ---
 
@@ -88,8 +87,7 @@ It is an operator-facing packaging surface that assumes technical judgment.
 - Read-only manifest preview before approval
 - Tier-2 discrepancy review before packaging
 - Acknowledgment gate before authority package build
-- Success dialog showing bundle root, manifest store, and receipt output paths :contentReference[oaicite:12]{index=12} :contentReference[oaicite:13]{index=13} :contentReference[oaicite:14]{index=14}
-
+- Success dialog showing bundle root, manifest store, and receipt output paths 
 ---
 
 ## Current Status
@@ -98,9 +96,7 @@ It is an operator-facing packaging surface that assumes technical judgment.
 
 The current application is a PySide6 desktop utility that launches the main window and enters the Qt event loop. The entry file is intentionally minimal and acts only as the application bootstrapper. :contentReference[oaicite:15]{index=15}
 
-The main UI flow currently lives in `Package_main_window.py`, which coordinates validation, analysis, manifest preview, discrepancy review, and authority packaging handoff. :contentReference[oaicite:16]{index=16}
-
----
+The main UI flow currently lives in `Package_main_window.py`, which coordinates validation, analysis, manifest preview, discrepancy review, and authority packaging handoff. 
 
 ## Getting Started
 
@@ -111,8 +107,7 @@ You need:
 - Python 3.10+ recommended
 - PySide6
 - the expected package layout used by the repo (`ui/`, `core/`, and tiered modules referenced by imports)
-- a finished DAW project folder containing exactly one supported session file at project root :contentReference[oaicite:17]{index=17} :contentReference[oaicite:18]{index=18} :contentReference[oaicite:19]{index=19}
-
+- a finished DAW project folder containing exactly one supported session file at project root 
 ### Install
 
 Clone or download the repository, then install dependencies in your Python environment:

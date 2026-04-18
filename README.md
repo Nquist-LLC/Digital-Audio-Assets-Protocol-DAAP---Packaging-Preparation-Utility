@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/status-active%20prototype-success)](#)
 [![Audience](https://img.shields.io/badge/audience-advanced%20operators-purple)](#)
 
-Drag-and-drop project packaging utility for preparing a finished DAW project for DAAP authority packaging. This tool validates a project folder, builds a filesystem-authoritative Tier-1 manifest, parses session relationships in later tiers, presents discrepancy review screens, and then hands approved state into the authority packaging step. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+Drag-and-drop project packaging utility for preparing a finished DAW project for DAAP authority packaging. This tool validates a project folder, builds a filesystem-authoritative Tier-1 manifest, parses session relationships in later tiers, presents discrepancy review screens, and then hands approved state into the authority packaging step. :contentReference
 
 ---
 
@@ -22,7 +22,7 @@ Where the in-session utility captures structural state from inside the DAW, this
 4. run analysis  
 5. review the Tier-1 manifest  
 6. review Tier-2 discrepancies  
-7. proceed to mint preparation / authority packaging :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+7. proceed to mint preparation / authority packaging
 
 This repository is intended for **advanced technical operators**, not casual end users. The current workflow assumes a project has already been organized correctly and that the operator understands the implications of scope-lock, session/media mismatch, and packaging review.
 
@@ -94,8 +94,7 @@ It is an operator-facing packaging surface that assumes technical judgment.
 
 **Entry point:** `DAAP_Package_Prep_v1.py`
 
-The current application is a PySide6 desktop utility that launches the main window and enters the Qt event loop. The entry file is intentionally minimal and acts only as the application bootstrapper. :contentReference[oaicite:15]{index=15}
-
+The current application is a PySide6 desktop utility that launches the main window and enters the Qt event loop. The entry file is intentionally minimal and acts only as the application bootstrapper. 
 The main UI flow currently lives in `Package_main_window.py`, which coordinates validation, analysis, manifest preview, discrepancy review, and authority packaging handoff. 
 
 ## Getting Started

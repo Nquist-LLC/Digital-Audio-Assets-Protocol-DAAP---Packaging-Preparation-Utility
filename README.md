@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/status-active%20prototype-success)](#)
 [![Audience](https://img.shields.io/badge/audience-advanced%20operators-purple)](#)
 
-Drag-and-drop project packaging utility for preparing a finished DAW project for DAAP authority packaging. This tool validates a project folder, builds a filesystem-authoritative Tier-1 manifest, parses session relationships in later tiers, presents discrepancy review screens, and then hands approved state into the authority packaging step. :contentReference
+Drag-and-drop project packaging utility for preparing a finished DAW project for DAAP authority packaging. This tool validates a project folder, builds a filesystem-authoritative Tier-1 manifest, parses session relationships in later tiers, presents discrepancy review screens, and then hands approved state into the authority packaging step. 
 
 ---
 
